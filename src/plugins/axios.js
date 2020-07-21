@@ -4,7 +4,7 @@ import axios from 'axios'
 Vue.use({
     install(Vue) {
         Vue.prototype.$http = axios.create({
-            baseURL: 'https://curso-vue-cb5a5.firebaseio.com/'
+            baseURL: 'https://stock-trader-2e9d2.firebaseio.com/'
         })
     }
 })
